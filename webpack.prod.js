@@ -8,7 +8,7 @@ module.exports = merge(config, {
   entry: "./src/index.js",
   output: {
     filename: "[name].[hash].bundle.js",
-    path: path.resolve(__dirname, "build")
+    path: path.resolve(__dirname, "docs")
   },
   plugins: [
     new CleanWebpackPlugin()
